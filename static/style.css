@@ -1,0 +1,59 @@
+/* Barra preta no topo */
+.navbar {
+  background-color: #000;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Texto cinza que vira branco no hover */
+.navbar .brand,
+.navbar .nav-link {
+  color: grey;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.navbar .brand:hover,
+.navbar .nav-link:hover {
+  color: #fff;
+}
+
+/* Container central */
+.container {
+  width: 960px;        /* 3×320px */
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Linha cinza com a largura do formulário */
+.separator {
+  border-top: 1px solid grey;
+  width: 960px;        /* 3×320px */
+  margin: 10px auto 20px;
+}
+
+/* Estilo do input – agora com largura igual à da linha */
+.input-name {
+  width: 960px;        /* antes: 320px */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+/* Botão permanece com a largura original */
+.btn-submit {
+  width: 320px;        /* mantém 320px */
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
