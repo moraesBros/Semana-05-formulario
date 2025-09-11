@@ -10,10 +10,14 @@
 .navbar .brand,
 .navbar .nav-link {
   color: grey;
-  margin-right: 30px;
+  margin-right: 40px;
   text-decoration: none;
   font-size: 1.2em;
   cursor: pointer;
+
+  /* margem esquerda igual ao comprimento de "Flasky" (6 caracteres) */
+  margin-left: 18ch;
+  margin-right: 20px;
 }
 .navbar .brand:hover,
 .navbar .nav-link:hover {
@@ -27,11 +31,28 @@
   text-align: center;
 }
 
+/* Título principal – agora alinhado à esquerda do formulário */
+.greeting {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 0;
+}
+
 /* Linha cinza com a largura do formulário */
 .separator {
   border-top: 1px solid grey;
   width: 960px;        /* 3×320px */
   margin: 10px auto 20px;
+}
+
+/* Texto menor – alinhado à esquerda do formulário */
+.prompt {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: left;
+  margin-left: 0;
 }
 
 /* Estilo do input – agora com largura igual à da linha */
